@@ -1,1 +1,16 @@
-
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x=0,y=0;
+    cout<<"Please enter two numbers, seperated by a space: " ;
+	cin>>x>>y;
+	if(x>y)
+		cout<<x;
+	if(x<y)
+		cout<<y;
+	if(x==y)
+		cout<<"They are equal.";
+	return 0;
+	
+}
